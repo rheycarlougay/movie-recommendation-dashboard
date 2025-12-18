@@ -86,6 +86,12 @@ To use the system, generate API keys from the following services:
 - OMDB: https://www.omdbapi.com/apikey.aspx
 - YouTube: https://developers.google.com/youtube/v3/getting-started
 
+After gathering all the keys set them up at your .env with this designated key name
+
+- TMDB: TMDB_API_KEY = "<your_api_key>"
+- OMDB: OMDB_API_KEY = "<your_api_key>"
+- YouTube: YOUTUBE_API_KEY = "<your_api_key>"
+
 ---
 
 Notes
