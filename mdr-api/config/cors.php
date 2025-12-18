@@ -3,7 +3,7 @@
 return [
     'paths' => ['api/*'],
     'allowed_methods' => ['*'],
-    'allowed_origins' => [env('MDR_HOST')],
+    'allowed_origins' => [env('CLIENT_HOST')],
     'allowed_headers' => ['*'],
     'exposed_headers' => [],
     'max_age' => 0,
